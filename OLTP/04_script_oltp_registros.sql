@@ -1,22 +1,6 @@
 USE pdan_bd_sistema_riesgo_crediticio;
 GO
 
-/*
-===========================================================
-4. SCRIPT OLTP CON REGISTROS
-Requisitos cubiertos:
-- Tablas independientes: mínimo 5 registros.
-- Tablas transaccionales / relacionales: mínimo 20 registros.
-Orden recomendado:
-1) Ejecutar create_database.sql
-2) Ejecutar este archivo completo
-===========================================================
-*/
-
------------------------------------------------------------
--- A. TABLAS INDEPENDIENTES / MAESTRAS
------------------------------------------------------------
-
 -- 1) CLIENTES: 40 registros base: 25 naturales y 15 jurídicos
 ;WITH numeros AS
 (
