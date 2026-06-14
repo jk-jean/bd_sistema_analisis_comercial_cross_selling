@@ -1,17 +1,6 @@
 USE pdan_bd_sistema_riesgo_crediticio;
 GO
 
-/*
-===========================================================
-5. 20 CONSULTAS TRANSACT-SQL
-10 básicas / intermedias
-10 avanzadas / expertas
-===========================================================
-*/
-
------------------------------------------------------------
--- BLOQUE A: 10 CONSULTAS BÁSICAS E INTERMEDIAS
------------------------------------------------------------
 
 -- 1. Listar clientes con su nombre o razón social.
 SELECT 
