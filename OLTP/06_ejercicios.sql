@@ -1,18 +1,5 @@
-USE pdan_bd_sistema_riesgo_crediticio;
+USE pdan_bd_sistema_riesgo_crediticio
 GO
-
-/*
-===========================================================
-6. EJERCICIOS PROPUESTOS DE CLASE PENDIENTES
-Se identificó que el archivo Examples_expert.sql contenía el enunciado
-de 20 ejercicios, pero solo algunos tenían solución escrita.
-Este archivo completa los ejercicios 1 al 20 y añade los bonus.
-===========================================================
-*/
-
------------------------------------------------------------
--- UTILIDAD: patrón de nombre de cliente usado en las consultas
------------------------------------------------------------
 
 -- EJERCICIO 1. Score crediticio simplificado y clasificación.
 ;WITH scores AS
